@@ -3,9 +3,9 @@ const { GoogleAdsApi } = require('google-ads-api');
 require('dotenv').config();
 
 const client = new GoogleAdsApi({
-    client_id: process.env.CLIENT_ID,
-    client_secret: process.env.CLIENT_SECRET,
-    developer_token: process.env.DEVELOPER_TOKEN,
+    GOOGLE_ADS_CLIENT_ID: process.env.GOOGLE_ADS_CLIENT_ID,
+    GOOGLE_ADS_CLIENT_SECRET: process.env.GOOGLE_ADS_CLIENT_SECRET,
+    GOOGLE_ADS_DEVELOPER_TOKEN: process.env.GOOGLE_ADS_DEVELOPER_TOKEN,
 });
 
 module.exports = client;
