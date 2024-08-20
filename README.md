@@ -117,6 +117,14 @@ To run the app locally, use the following scripts:
    ```sh
    npm run dev
    ```
+## Running the Campaign Script
+
+To test the end-to-end process of setting up a new ad campaign, creating an image ad, and pushing the ad live, you can run the provided campaign script.
+**Run the campaign file:**
+
+ ```sh$
+node src/runCampaign.js
+ ```
 
 ### Package.json Scripts
 
