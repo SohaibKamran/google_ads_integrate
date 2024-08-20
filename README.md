@@ -13,24 +13,23 @@ This project demonstrates integration with the Google Ads API using Node.js. It 
 ## API Endpoints
 
 ### Create Audience
-
-**URL:** `/api/create-audience`
-**Method:** `POST`
+**URL:** `/api/create-audience`  
+**Method:** `POST`  
 **Payload:**
-
 ```json
 {
   "name": "Audience Name",
-  "members": [{ "memberId": "12345" }, { "memberId": "67890" }]
+  "members": [
+    { "memberId": "12345" },
+    { "memberId": "67890" }
+  ]
 }
 ```
 
 ### Create Image Ad
-
-**URL:** `/api/create-image-ad`
-**Method:** `POST`
+**URL:** `/api/create-image-ad`  
+**Method:** `POST`  
 **Payload:**
-
 ```json
 {
   "headline": "Ad Headline",
@@ -82,7 +81,7 @@ google_ads_integrate/
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/ShoaibRasool6/google_ads_integrate.git
+   git clone https://github.com/SohaibKamran/google_ads_integrate.git
    cd google_ads_integrate
    ```
 
