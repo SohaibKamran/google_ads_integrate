@@ -1,7 +1,11 @@
-// src/utils/apiClient.js
 const { GoogleAdsApi } = require('google-ads-api')
 require('dotenv').config()
 
+/**
+ * Creates an instance of the Google Ads API client.
+ *
+ * @type {GoogleAdsApi}
+ */
 const client = new GoogleAdsApi({
   client_id: process.env.GOOGLE_ADS_CLIENT_ID,
   client_secret: process.env.GOOGLE_ADS_CLIENT_SECRET,

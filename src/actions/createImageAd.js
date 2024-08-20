@@ -1,4 +1,3 @@
-// src/actions/createImageAd.js
 const client = require('../utils/apiClient')
 const logger = require('../utils/logger')
 
@@ -12,7 +11,6 @@ const logger = require('../utils/logger')
  * @returns {Promise<Object>} The response from the Google Ads API.
  * @throws Will throw an error if the image ad creation fails.
  */
-
 async function createImageAd(payload) {
   try {
     const response = await client.customers.createCustomerClient(payload)
