@@ -1,6 +1,12 @@
 // src/runCampaign.js
 
 // Import the required services and utilities
+/**
+ * Runs the campaign process, creating an audience and an image ad.
+ * Logs the progress and any errors that occur.
+ *
+ * @throws {Error} If any step in the campaign process fails.
+ */
 const adService = require('./services/adService')
 const logger = require('./utils/logger')
 

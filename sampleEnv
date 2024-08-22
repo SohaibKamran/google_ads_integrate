@@ -1,0 +1,6 @@
+GOOGLE_ADS_CLIENT_ID=your-client-id
+GOOGLE_ADS_CLIENT_SECRET=your-client-secret
+GOOGLE_ADS_DEVELOPER_TOKEN=your-developer-token
+GOOGLE_ADS_REFRESH_TOKEN=your-refresh-token
+GOOGLE_ADS_CUSTOMER_ID=your-customer-id
+PORT=3000
