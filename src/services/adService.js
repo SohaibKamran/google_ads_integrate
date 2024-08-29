@@ -1,6 +1,6 @@
 const createAudience = require('../actions/createAudience')
 const createImageAd = require('../actions/createImageAd')
-const otherAction = require('../actions/otherActions')
+const otherAction = require('../actions/createCustomerAction')
 
 /**
  * Service to handle business logic for creating an audience.
